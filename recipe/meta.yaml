@@ -1,5 +1,5 @@
 {% set name = "small-text" %}
-{% set version = "1.0.1" %}
+{% set version = "1.1.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/small-text-{{ version }}.tar.gz
-  sha256: 7b069961983ef4ded06ea1e00ed53a53f7e574a3d6df42e255b2a31871d07b5e
+  sha256: 74616052a6366335d8bd61a66028658a09f17aeb18c19f8576545e570331e737
 
 build:
   noarch: python
@@ -25,6 +25,7 @@ requirements:
     - scikit-learn >=0.24.1
     - scipy
     - tqdm
+    - packaging
 
 test:
   imports:
