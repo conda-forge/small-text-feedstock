@@ -1,5 +1,5 @@
 {% set name = "small-text" %}
-{% set version = "1.3.3" %}
+{% set version = "1.4.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/small-text-{{ version }}.tar.gz
-  sha256: 7040152eb6ecf382a9bbc14b004ad38531dd3f4c90e31fe8bb8ec7675f7f81d1
+  sha256: 09d53328338cfee017d91be11379da6b5cbf435bc3c42882d857c6d042f4e618
 
 build:
   noarch: python
@@ -37,7 +37,7 @@ test:
 
 about:
   home: https://github.com/webis-de/small-text
-  summary: Active Learning for Text Classifcation in Python.
+  summary: Active Learning for Text Classification in Python.
   license: MIT
   license_file: LICENSE
   doc_url: https://small-text.readthedocs.io/en/latest/
