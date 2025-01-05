@@ -17,8 +17,9 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.9
+    - python >=3.10
     - setuptools
+    - conda-forge-ci-setup 3.17.1
   run:
     - dill >=0.3.7
     - numpy >=1.21.0
