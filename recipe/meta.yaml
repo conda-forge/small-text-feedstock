@@ -29,6 +29,7 @@ requirements:
     - tqdm
     - packaging
     - tokenizers >=0.11.5
+    - tomli
 
 test:
   imports:
