@@ -1,5 +1,5 @@
 {% set name = "small-text" %}
-{% set version = "2.0.0.dev2" %}
+{% set version = "2.0.0.dev3" %}
 {% set python_min = "3.9" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/small_text-{{ version }}.tar.gz
-  sha256: bfbd892ebc0b2b60241cfaf20a146d2f3b7fdf3c8bb5e22d71b1c9a3775db179
+  sha256: 089a8afcb3eed8f0f0b13e1a3d16c826002c649d8da9e1ea5bd3ade8dccda5d3
 
 build:
   noarch: python
