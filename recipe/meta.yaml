@@ -1,6 +1,6 @@
 {% set name = "small-text" %}
-{% set version = "2.0.0.dev3" %}
-{% set python_min = "3.9" %}
+{% set version = "2.0.0.dev4" %}
+{% set python_min = "3.10" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/small_text-{{ version }}.tar.gz
-  sha256: 089a8afcb3eed8f0f0b13e1a3d16c826002c649d8da9e1ea5bd3ade8dccda5d3
+  sha256: 0b7d3d93262ba0bc4dbdeadb1064fad2c76e6f5fd7b0b873ce5781555783b8e5
 
 build:
   noarch: python
@@ -29,7 +29,7 @@ requirements:
     - scipy
     - tqdm
     - packaging
-    - tokenizers >=0.11.5
+    - tokenizers >=0.22.0
     - tomli
 
 test:
